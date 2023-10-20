@@ -29,6 +29,9 @@ pub mod queue;
 pub mod shader;
 pub mod tile_projection;
 
+// new strata code.
+pub mod strata;
+
 pub mod prelude {
     pub use crate::bundle::MapBundle;
     pub use crate::map::{Map, MapIndexer, MapReadyEvent, MeshManagedByMap};
